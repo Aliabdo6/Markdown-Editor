@@ -16,9 +16,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Markdown Editor",
+  title: "Advanced Markdown Editor",
   description:
-    "A simple markdown editor built with Next.js and Tailwind CSS",
+    "A powerful markdown editor with real-time preview, templates, and more",
+  keywords:
+    "markdown, editor, nextjs, react, tailwind",
+  authors: [{ name: "Ali Abdo" }],
+  openGraph: {
+    title: "Advanced Markdown Editor",
+    description:
+      "A powerful markdown editor with real-time preview, templates, and more",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

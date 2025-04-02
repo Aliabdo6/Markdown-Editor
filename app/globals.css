@@ -1,4 +1,6 @@
 @import "tailwindcss";
+/* In your global CSS */
+@import 'react-toastify/dist/ReactToastify.css';
 
 :root {
   --background: #ffffff;
